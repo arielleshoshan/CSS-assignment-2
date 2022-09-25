@@ -8,22 +8,20 @@ html {
   box-sizing: inherit;
 }
 body {
-    font-family: sans-serif;
-    color: #fff;
-    background: #000;
-    margin: 0;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  margin: 0;
 }
 article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
 }
 .text {
-  background: #fff;
   color: #000;
-  padding: 20px;
-  font-size: 1.2rem;
+  margin: 3em;
+  font-size: 1.1rem;
   line-height: 1.5rem;
   flex: 1 1 0;
 }
@@ -31,7 +29,6 @@ h1 {
   margin: 0;
 }
 h2 {
-  text-align: center;
 }
 header {
   background: #323234;
@@ -61,6 +58,7 @@ nav ul li {
 }
 section {
   max-width: 600px;
+  margin: 3rem;
 }
 img {
     max-width: 100%; /* DO NOT delete or change this line */
@@ -96,11 +94,11 @@ footer p {
         specific articles or sections to improve CONTRAST --- */
 
 a {
-    color: #1A4A51;
-    text-decoration: none;
+  color: #1A4A51;
+  text-decoration: none;
 }
 a:hover {
-    color: #006880;
+  color: #006880;
 }
 nav ul a {
   color: #F09D28;
